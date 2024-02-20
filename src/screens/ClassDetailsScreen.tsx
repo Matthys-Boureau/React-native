@@ -10,7 +10,6 @@ export default function ClassDetailsScreen({ route }) {
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'start',
-                paddingLeft: 10,
             }}
         >
             <Image
@@ -18,22 +17,27 @@ export default function ClassDetailsScreen({ route }) {
                 style={{ width: '100%', aspectRatio: 1, marginBottom: 10 }}
                 resizeMode="contain"
             />
-            <Text
-                style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10 }}
-            >
-                {name}
-            </Text>
-            <Text style={{ fontSize: 16, marginBottom: 10 }}>
-                {description}
-            </Text>
-            {Object.entries(stats).map(([key, value]) => (
+            <View className='ml-4'>
                 <Text
-                    key={key}
-                    style={{ fontSize: 16, paddingLeft: 10, paddingTop: 5 }}
+                    style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10}}
                 >
-                    Stat - {`${key}: ${value}`}
+                    {name}
                 </Text>
-            ))}
+                <Text style={{ fontSize: 16, marginBottom: 10}}>
+                    {description}
+                </Text>
+            </View>
+            <View className='bg-red-950 w-full p-4'>
+                {Object.entries(stats).map(([key, value]) => (
+                    <Text
+                        key={key}
+                        style={{ fontSize: 16}}
+                        className='pb-2 text-white font-semibold'
+                    >
+                        Stats: {`${key}: ${value}`}
+                    </Text>
+                ))}
+            </View>
         </View>
     );
 }
