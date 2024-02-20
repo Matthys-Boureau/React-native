@@ -7,6 +7,7 @@ import {
     TouchableOpacity,
     KeyboardAvoidingView,
 } from 'react-native';
+import { Icon } from 'react-native-elements'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 
@@ -27,8 +28,9 @@ export default function Accueil() {
                     <TouchableOpacity
                         style={{ height: 60 }}
                         onPress={navigateToStarship}
-                        className="items-center justify-center bg-slate-300 rounded-lg"
+                        className="flex flex-row gap-x-2 items-center justify-center bg-slate-300 rounded-lg"
                     >
+                        <Icon name='rocket' />
                         <Text className="font-bold text-black text-2xl">
                             Starship
                         </Text>
@@ -36,8 +38,9 @@ export default function Accueil() {
                     <TouchableOpacity
                         style={{ height: 60 }}
                         onPress={navigateToEldenRing}
-                        className="items-center justify-center bg-orange-800 rounded-lg"
+                        className="flex flex-row gap-x-2 items-center justify-center bg-amber-500 rounded-lg"
                     >
+                        <Icon name='view-headline' />
                         <Text className="font-bold text-black text-2xl">
                             Elden Ring
                         </Text>
