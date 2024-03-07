@@ -29,7 +29,7 @@ export default function LoginScreen() {
                     <Text className="text-lg font-semibold">Email</Text>
                     <TextInput
                         keyboardType="email-address"
-                        className="bg-sky-50 text-xl px-4 py-2 rounded-lg"
+                        className="bg-sky-50 text-md px-4 py-2 rounded-lg"
                     />
                 </KeyboardAvoidingView>
                 <KeyboardAvoidingView behavior='padding' className="gap-y-1">
@@ -37,7 +37,7 @@ export default function LoginScreen() {
                     <View className="flex-row items-center">
                         <TextInput
                             secureTextEntry={!showPassword}
-                            className="bg-sky-50 text-xl px-4 py-2 rounded-l-lg flex-1"
+                            className="bg-sky-50 text-md px-4 py-3 rounded-l-lg flex-1"
                         />
                         <TouchableOpacity
                             style={{ height: 42 }}
