@@ -12,7 +12,7 @@ export default function EldenRingCard(props: Props) {
     const navigation = useNavigation();
 
     return (
-        <View className="bg-black mx-4 rounded-md">
+        <View className="mx-2 border-2 border-yellow-700 bg-yellow-900/25 rounded-md">
             <TouchableOpacity
                 onPress={() =>
                     navigation.navigate('ClassDetails', {
@@ -30,10 +30,7 @@ export default function EldenRingCard(props: Props) {
                     resizeMode="contain"
                 />
                 <View className="p-4">
-                    <Text className="text-xl text-white mb-4">
-                        {props.name}
-                    </Text>
-                    <Text className="text-white mb-2">{props.description}</Text>
+                    <Text className="text-black mb-2">{props.description}</Text>
                 </View>
             </TouchableOpacity>
         </View>

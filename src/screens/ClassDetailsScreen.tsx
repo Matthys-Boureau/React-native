@@ -11,30 +11,25 @@ export default function ClassDetailsScreen({ route }) {
                 justifyContent: 'center',
                 alignItems: 'start',
             }}
+            className='flex'
         >
             <Image
                 source={{ uri: image }}
-                style={{ width: '100%', aspectRatio: 1, marginBottom: 10 }}
+                style={{ aspectRatio: 1, marginBottom: 10, height: 300 }}
                 resizeMode="contain"
             />
             <View className='ml-4'>
-                <Text
-                    style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 10}}
-                >
-                    {name}
-                </Text>
                 <Text style={{ fontSize: 16, marginBottom: 10}}>
                     {description}
                 </Text>
             </View>
-            <View className='bg-red-950 w-full p-4'>
+            <View className='w-full p-4 grid grid-rows-4 grid-flow-col'>
                 {Object.entries(stats).map(([key, value]) => (
                     <Text
                         key={key}
-                        style={{ fontSize: 16}}
-                        className='pb-2 text-white font-semibold'
+                        className='pb-2 text-xs font-semibold'
                     >
-                        Stats: {`${key}: ${value}`}
+                        {`${key}: ${value}`}
                     </Text>
                 ))}
             </View>

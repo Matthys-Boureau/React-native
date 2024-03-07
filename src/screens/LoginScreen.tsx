@@ -20,9 +20,6 @@ export default function LoginScreen() {
     function navigateToTerms() {
         navigation.navigate('Terms');
     }
-    function navigateAccueil() {
-        navigation.navigate('Homepage');
-    }
 
     return (
         <View className='bg-gray-200 h-full pt-16'>

@@ -35,7 +35,7 @@ export const EldenRingScreen = () => {
                             <View
                                 style={{
                                     backgroundColor: 'transparent',
-                                    height: 4,
+                                    height: 16,
                                 }}
                             />
                         )}
