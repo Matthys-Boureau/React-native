@@ -8,11 +8,14 @@ import {
     KeyboardAvoidingView,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { Icon } from 'react-native-elements'
+import { Icon } from 'react-native-elements';
+import { useAuthContext } from '@/context/AuthContext';
 
 export default function LoginScreen() {
     const [showPassword, setShowPassword] = useState(false);
     const navigation = useNavigation();
+    
+    const { toggleIsSignedIn } = useAuthContext();
 
     function navigateToTerms() {
         navigation.navigate('Terms');
@@ -51,7 +54,7 @@ export default function LoginScreen() {
                 <View>
                     <TouchableOpacity
                         style={{ height: 40 }}
-                        onPress={navigateAccueil}
+                        onPress={() => toggleIsSignedIn()}
                         className="mt-4 items-center justify-center bg-slate-400 rounded-lg"
                     >
                         <Text className="font-bold text-black text-xl">Login</Text>
