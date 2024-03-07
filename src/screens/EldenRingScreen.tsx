@@ -34,8 +34,8 @@ export const EldenRingScreen = () => {
                         ItemSeparatorComponent={({ highlighted }) => (
                             <View
                                 style={{
-                                    backgroundColor: 'transparent',
-                                    height: 16,
+                                    backgroundColor: 'grey',
+                                    height: 24,
                                 }}
                             />
                         )}

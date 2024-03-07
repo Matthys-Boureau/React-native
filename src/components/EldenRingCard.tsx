@@ -12,7 +12,7 @@ export default function EldenRingCard(props: Props) {
     const navigation = useNavigation();
 
     return (
-        <View className="mx-2 border-2 border-yellow-700 bg-yellow-900/25 rounded-md">
+        <View className="shadow-xl">
             <TouchableOpacity
                 onPress={() =>
                     navigation.navigate('ClassDetails', {
@@ -25,11 +25,11 @@ export default function EldenRingCard(props: Props) {
             >
                 <Image
                     source={{ uri: props.image }}
-                    className="rounded-t-md w-full"
+                    className="rounded-t-md w-full bg-gray-100"
                     style={{ aspectRatio: 1 / 1 }}
                     resizeMode="contain"
                 />
-                <View className="p-4">
+                <View className="p-4 bg-white shadow-xl">
                     <Text className="text-black mb-2">{props.description}</Text>
                 </View>
             </TouchableOpacity>

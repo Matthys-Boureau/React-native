@@ -26,7 +26,7 @@ export default function Homepgage() {
     return (
             <View className="pt-8 h-full">
                 <View>
-                    <Text className="font-bold text-black text-4xl pl-6 pb-4">Game List</Text>
+                    <Text className="font-bold text-black text-2xl pl-6">Game List</Text>
                     <ScrollView horizontal className="w-full flex py-4" showsHorizontalScrollIndicator={false}>
                         <TouchableOpacity
                             onPress={navigateToStarship}
@@ -65,7 +65,7 @@ export default function Homepgage() {
                     </ScrollView>
                 </View>
                 <View className='my-6 h-full flex-1 pb-4'>
-                    <Text className="font-bold text-black text-4xl pl-6 pb-4 mb-4">News</Text>
+                    <Text className="font-bold text-black text-2xl pl-6 pb-4 mb-4">News</Text>
                     <ScrollView showsVerticalScrollIndicator={false} className='pl-2 pr-6 flex flex-col gap-4 h-full'>
                         <View className='relative w-full'>
                             <Image source={require('../../assets/elden-ring/elden-ring.jpeg')} className='w-full h-52 rounded-md'/>
