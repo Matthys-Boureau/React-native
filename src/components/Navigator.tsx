@@ -6,7 +6,7 @@ import { TermsScreen } from '../screens/TermsScreen';
 import { StarshipFeedScreen } from '../screens/StarshipFeedScreen';
 import { EldenRingScreen } from '@/screens/EldenRingScreen';
 import ClassDetailsScreen from '@/screens/ClassDetailsScreen';
-import Accueil from '@/screens/LoggedScreen';
+import Homepage from '@/screens/LoggedScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,11 +20,8 @@ export default function Navigator() {
                     component={StarshipFeedScreen}
                 />
                 <Stack.Screen name="EldenRing" component={EldenRingScreen} />
-                <Stack.Screen name="Accueil" component={Accueil} />
+                <Stack.Screen name="Homepage" component={Homepage} />
                 <Stack.Screen name="Terms" component={TermsScreen} />
-
-                {/* Ajoute une route dynamique pour chaque nom de classe */}
-                {/* Le nom de la route est défini comme props.name */}
                 <Stack.Screen
                     name="ClassDetails"
                     component={ClassDetailsScreen}
