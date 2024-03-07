@@ -1,4 +1,6 @@
-import { View, Text, Image, ImageSourcePropType } from 'react-native';
+import { View, Text, Image, ImageSourcePropType, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+
 
 type Props = {
     name: string;
@@ -10,9 +12,22 @@ type Props = {
 
 export default function SpaceShipCard(props: Props) {
     const source = useImage(props.name);
+    const navigation = useNavigation();
 
     return (
         <View className="bg-black mx-4 rounded-md">
+            <TouchableOpacity 
+                onPress={() => 
+                    navigation.navigate('StarshipDetails', 
+                        {
+                        name: props.name,
+                        model: props.model,
+                        manufacturer: props.manufacturer,
+                        cost_in_credits: props.cost_in_credits,
+                        hyperdrive_rating: props.hyperdrive_rating,
+                        })
+                }
+            >
             <Image source={source} className="w-full rounded-t-md" />
             <View className="p-4">
                 <Text className="text-xl text-white mb-4">{props.name}</Text>
@@ -27,6 +42,7 @@ export default function SpaceShipCard(props: Props) {
                     Hyperdrive rating : {props.hyperdrive_rating}
                 </Text>
             </View>
+            </TouchableOpacity>
         </View>
     );
 }
