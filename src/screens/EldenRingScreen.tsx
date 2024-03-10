@@ -4,6 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import EldenRingCard from '@/components/EldenRingCard';
 import { useEldenRingClass } from '@/hooks/useEldenRingClass';
 import { useState, useEffect } from 'react';
+import RandomClass from '@/feature/RandomClass';
 
 export const EldenRingScreen = () => {
     const [classData, setClassData] = useState(null);
@@ -19,6 +20,9 @@ export const EldenRingScreen = () => {
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <StatusBar style="dark" />
+            <View>
+                <RandomClass />
+            </View>
             {classData && (
                 <View
                     style={{

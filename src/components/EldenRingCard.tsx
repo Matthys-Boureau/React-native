@@ -6,6 +6,7 @@ type Props = {
     image: string;
     name: string;
     description: string;
+    stats?: { [key: string]: string };
 };
 
 export default function EldenRingCard(props: Props) {
@@ -19,7 +20,7 @@ export default function EldenRingCard(props: Props) {
                         name: props.name,
                         description: props.description,
                         image: props.image,
-                        stats: props.stats,
+                        stats: props.stats, // Passer les stats uniquement si elles sont définies
                     })
                 }
             >
