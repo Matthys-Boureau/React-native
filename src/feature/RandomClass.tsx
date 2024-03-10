@@ -20,7 +20,7 @@ export default function RandomClass() {
 
     return (
         <>
-            <Button title="Sélectionner une classe aléatoire" onPress={selectRandomClass} />
+            <Button className="m-4" title="Sélectionner une classe aléatoire" onPress={selectRandomClass} />
             {classData && (
                 <ClassDetailsScreen route={{ params: classData }} />
             )}
