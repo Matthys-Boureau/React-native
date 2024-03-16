@@ -50,18 +50,19 @@ I had a random class selector for the Elden Ring part
 # APP présentation
 
 
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png" alt="drawing" width="200"/>
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png" alt="Login" width="250"/>
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png" alt="Homepage" width="250"/>
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png" alt="Starship" width="250"/>
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png" alt="Starship Popin" width="250"/>
+
 
 ### Elden Ring Feature
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png" alt="Starship Popin" width="250"/>
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png" alt="Starship Popin" width="250"/>
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png =250x)
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png" alt="Starship Popin" width="250"/>
