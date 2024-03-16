@@ -35,6 +35,17 @@ Enjoy the app !
 
 ---
 
+# Bootcamp avancement
+
+[x] Data
+[x] ecosystem
+[x] foundation
+[x] react-navigation
+[x] release
+
+
+---
+
 # News added
 
 ## API utilisé
