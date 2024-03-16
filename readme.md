@@ -49,7 +49,8 @@ I had a random class selector for the Elden Ring part
 
 # APP présentation
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png =250x)
+
+<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png" alt="drawing" width="200"/>
 
 ![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png =250x)
 
