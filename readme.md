@@ -1,5 +1,3 @@
---- {"layout": "center"}
-
 # Application SpaceCraft / Add new feature.
 
 ---
@@ -18,15 +16,15 @@ Next use
 npm run start
 ```
 
-### SMARTPHONE
+### On Smartphone
 
-Now install expo app on your smartphone.
-
-[ios](https://apps.apple.com/us/app/expo-go/id982107779)
+Now install expo app on your smartphone [ios](https://apps.apple.com/us/app/expo-go/id982107779)
 or
 [andriod](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=fr&gl=US&pli=1)
 
 Now you can scan the qr code and open it with Expo app !
+
+
 
 ### On MacBook
 
@@ -48,3 +46,19 @@ Enjoy the app !
 I had a random class selector for the Elden Ring part
 
 ---
+
+# APP prsentation
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+![Image]()
