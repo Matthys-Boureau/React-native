@@ -47,18 +47,20 @@ I had a random class selector for the Elden Ring part
 
 ---
 
-# APP prsentation
+# APP présentation
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png)
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png)
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png)
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png)
 
-![Image]()
+### Elden Ring Feature
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png)
 
-![Image]()
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png)
+
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png)
