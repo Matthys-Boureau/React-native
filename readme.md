@@ -49,18 +49,18 @@ I had a random class selector for the Elden Ring part
 
 # APP présentation
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png = 250px)
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png = 250px)
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png = 250px)
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png = 250px)
 
 ### Elden Ring Feature
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png = 250px)
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png = 250px)
 
-![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png)
+![Image](https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png = 250px)
