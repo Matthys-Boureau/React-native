@@ -1,3 +1,3 @@
 API : https://eldenring.fanapis.com/api/classes
 
-Ajout d'une possiblité de filtrer
+Ajouter un bouton random, pour selection une classe random et/ou filtre
