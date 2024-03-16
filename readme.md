@@ -56,15 +56,11 @@ I had a random class selector for the Elden Ring part
 <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png" alt="Homepage" width="250"/>
 
 ---
-<p>
 
 ## Starship part
-#### Starship screen
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png" alt="Starship" width="250" hspace="50"/>
-
-#### Starship popin
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png" alt="Starship Popin" width="250" hspace="50"/>
-
+<p>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png" alt="Starship" width="250" />
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png" alt="Starship Popin" width="250" />
 </p>
 ---
 
