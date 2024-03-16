@@ -55,6 +55,8 @@ I had a random class selector for the Elden Ring part
 #### Homepage
 <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png" alt="Homepage" width="250"/>
 
+---
+
 ## Starship part
 #### Starship screen
 <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship.png" alt="Starship" width="250"/>
@@ -62,6 +64,7 @@ I had a random class selector for the Elden Ring part
 #### Starship popin
 <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/starship-popin.png" alt="Starship Popin" width="250"/>
 
+---
 
 ### Elden Ring Feature
 
