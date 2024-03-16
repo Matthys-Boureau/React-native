@@ -41,7 +41,7 @@ Enjoy the app !
 - [x] ecosystem
 - [x] foundation
 - [x] react-navigation
-- [x] release
+- [ ] release
 
 
 ---
