@@ -49,11 +49,10 @@ I had a random class selector for the Elden Ring part
 
 # APP présentation
 
-#### Login
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png" alt="Login" width="250"/>
-
-#### Homepage
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png" alt="Homepage" width="250"/>
+<p>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/login.png" alt="Login" width="250"/>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/homepage.png" alt="Homepage" width="250"/>
+</p>
 
 ---
 
@@ -65,12 +64,8 @@ I had a random class selector for the Elden Ring part
 ---
 
 ### Elden Ring Feature
-
-#### Elden Ring screen
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png" alt="Starship Popin" width="250"/>
-
-#### Elden Ring class
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png" alt="Starship Popin" width="250"/>
-
-#### Elden Ring random class generator
-<img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png" alt="Starship Popin" width="250"/>
+<p>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring.png" alt="Starship Popin" width="250"/>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-class.png" alt="Starship Popin" width="250"/>
+    <img src="https://github.com/Matthys-Boureau/React-native/blob/main/assets/app-img/elden-ring-random.png" alt="Starship Popin" width="250"/>
+</p>
